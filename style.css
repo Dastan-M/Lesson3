@@ -27,18 +27,26 @@ h1, h2, a, button {
 .header {
   padding: 39px 0;
 }
-.navigation {}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
 
 .navigation a {
   font-size: 16px;
+}
+.right_side_header{
+  display: flex;
+  gap: 14px;
 }
 
 .main {
   margin-bottom: 197px;
 }
-.mainContent {}
-
-.mainContent__leftSide {}
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+}
 
 .mainContent__leftSide p {
   color: #888888;
@@ -52,12 +60,15 @@ h1, h2, a, button {
   margin-bottom: 40px;
 }
 .mainContent__leftSide p {
-  font-size: 18px;
+  font-size: 28px;
   line-height: 160%;
   opacity: 0.7;
   margin-bottom: 50px;
 }
-.mainContent__leftSide-btnList {}
+.mainContent__leftSide-btnList {
+  display: flex;
+  gap: 40px;
+}
 
 .mainContent__leftSide-btnList .start_btn {
   color: #ffffff;
@@ -80,4 +91,7 @@ h1, h2, a, button {
 .footer {
   margin-bottom: 100px;
 }
-.logos {}
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
